@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/seasons');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: "Instrument Serif", serif;
+}
+
+h2,h3,h1{
+    background-color: transparent;
+}
+a{
+    background-color: transparent;
+    text-decoration: none;
+    color:white
+}
+/* header-section */
+#search{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+   
+}
+#head-icon{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1em;
+}
+
+/* navbar */
+#navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+/* main-section */
+
+#first-slide{
+    min-height: 75vh;
+    background-position: center;
+    background-image: url(https://marketplace.canva.com/EAFY1d4gong/1/0/1600w/canva-brown-minimalist-new-arrival-fashion-banner-BMQnh-SXpC0.jpg);
+    background-size: cover;
+    background-image: url(img/slide1.webp);
+    
+}
+.carousel-indicators{
+    background: transparent;
+}
+
+#second-slide{    
+        min-height: 75vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(https://img.freepik.com/free-psd/fashion-sale-social-media-cover-template_23-2149528650.jpg?w=826&t=st=1705422719~exp=1705423319~hmac=fb91cba03e0598b664e496fc6c7177b12aa8c954d38463c1411d78cf576db432);
+
+}
+#third-slide{
+        min-height: 75vh;
+        background-position: center;
+        background-size: cover;
+        background-image: url(img/slide2.webp);   
+}
+#side-section{
+    height: 75vh;
+    overflow: scroll;
+}
+#side-section::-webkit-scrollbar{
+    display: none;
+}
+.img-section{
+    height: 800px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img{
+    height: 30%;
+    width: 100%;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Seasons', sans-serif;
+}
+
+#arrival{
+    padding-top: 1em;
+    height: 65vh;
+}
+#arrival h1{
+    background-color: transparent;
+    padding-top: 95%;
+    
+}
+#left-img{
+    background-image: url(https://i.pinimg.com/564x/a7/f5/17/a7f517f4e982e1323b1564e2de82a923.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+#mid-img{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/736x/ea/0a/a6/ea0aa6b68187c1d7c8610cc8ef4eafbc.jpg);
+    border-radius: 1em;
+}
+#right-img{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1em;
+    margin-left: 1em;
+    background-image: url(https://i.pinimg.com/564x/09/4d/c0/094dc0439586ced70c9bd01580e8bbe7.jpg);
+}
+
+#left-img:hover,
+#right-img:hover,
+#mid-img:hover{
+    scale: 1.05;
+    transition: 1s;
+}
+#new-arr{
+    height: 35vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+}
+
+#new-arr h1{
+    font-size: 5rem;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+}
+/* section-3 */
+#page3-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-top: 0.4em solid white;
+    border-bottom: 0.4em solid white;
+ }
+
+ #page3-heading h1{
+    font-family: "Arial Black";
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2em;
+ }
+  
+ #dresses .col{
+    margin-top: 5em;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    background-color: transparent;
+ }
+ #dresses .col:hover{
+    scale: 1.05;
+ }
+ #dresses h3{
+    font-size: 1.5em;
+ }
+
+ #dress1 {
+    height: 50vh;
+    object-fit: contain;
+    background-image:url(img/d2.webp);
+ }
+ #dress2 {
+    height: 50vh;
+    object-fit: contain;
+    background-image:url(img/d1.webp);
+ }
+ #dress3 {
+    height: 50vh;
+    object-fit: contain;
+    background-image: url(img/d3.webp);
+ }
+ #dress4 {
+    height: 50vh;
+    object-fit: contain;
+    background-image:url(img/d1.webp);
+ }
+
+#btn-cont{
+    margin-top: 5vh;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#see-more{
+    padding: 0.7em;
+    border: none;
+    background-color: #a66161;
+    border-radius: 0.5em;
+}
+.page3{
+    height: 110vh;
+    width: 100%;
+}
+
+/* page4 */
+
+.page4 .container-fluid{
+    height: 80vh;
+    background: #c49191;
+    padding-top: 2.2em;
+}
+.page4 #left-img{
+    height: 95%;
+    background-color: #755151;
+    background-image: url(https://i.pinimg.com/736x/b0/52/21/b05221482a420d29a2503869efab757b.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1em;
+    display: flex;
+}
+#page4 #right-side {
+    height: 100%;
+     text-align: center;
+     background-color: #755151;
+}
+#know-more{
+    padding: 0.5em;
+    font-family: "arial-black";
+    border-style: none;
+    border-radius: 0.2em;
+    text-transform: uppercase;
+    background-color: #755151;
+}
+.container-md{
+    height: 90%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 1em;
+}
+.page4{
+    height: 80vh;
+    
+    width: 100%;
+}
+
+/* page 5 */
+
+.icon{
+    height: 3.5em;
+    width: 3.5em;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1em solid rgb(234, 197, 197);
+    border-radius: 50%;
+    transition: 1s;
+    color: #ac9595;
+}
+.page5 .col {
+    color: #ac9595;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1em;
+    height: 40vh;
+    align-items: center;
+    background-color: transparent;
+   
+}
+.page5 .col h3{
+    font-size: 1em;
+    padding-top: 5%;
+}
+
+.page5 .col:hover{
+    transition: 1s;
+    scale: 1.2;
+}
+
+#join-list{
+    text-align: center;
+    font-size: 2em;
+    color: #d1a3a3;
+    background-color: transparent;   
+}
+#join-list h2{
+    text-transform:lowercase; 
+    font-size: 5em;   
+    background-color: transparent;
+}
+
+.page5{
+    height: 80vh;  
+    padding: 1em;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(69, 65, 65), rgb(0, 0, 0) 40%) ;
+}
+
+#offer-heading{
+    color: rgb(224, 220, 210);
+    text-transform: uppercase;
+    background-color: black;
+    height: 4em;
+    border-top: 0.4em solid white;
+    border-bottom: 0.4em solid white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 4em;
+       
+}
+
+#offer-heading h3{
+    font-family: "arial black";
+    font-style: normal;
+    font-size: 1.4em; 
+}
+
+/* section 6 */
+
+.page6{
+    height: 100vh;
+    width: 100%;
+}
+#searchbar{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+}
+#searchbar input{
+    color: white;
+    border: 2px solid white;
+}
+.page6 #img{
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/564x/f7/9c/d0/f79cd04744a19171804b028956bfd4b7.jpg);
+    background-size: cover;  
+}
+.page6 h3{
+    font-style: normal;
+    background-color: transparent;
+}
+.page6 p{
+    background: transparent;
+    color: #4f2929;
+}
+.button{
+    background: transparent;
+}
+
+.button button{
+    padding: 0.5em;
+    width: 6rem;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #b33947;   
+}
+
+#client{
+    font-size: 2em;
+}
+#client h2{
+    font-style: normal;
+    color: #c49191;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+#img h2{
+    color: #4f2929;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.last{
+    height: 2em;
+    border-bottom: 0.2em solid white;
+    border-top: 0.2em solid white;
+}
+#copyright{
+    height: 5em;
+    padding-top: 1em;
+}
+#copyright ul{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#copyright h3{
+    font-size: 0.7em;
+    text-transform: capitalize;
+    font-family: "arial black";
+}
